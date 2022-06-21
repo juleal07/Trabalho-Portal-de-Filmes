@@ -1,0 +1,282 @@
+
+/*INICIO DO CABEÇALHO*/
+.cabecalho{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 0;
+        align-items: center;
+        padding-left: 30px;
+        
+}
+.menu nav a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        padding-left: 10px;
+}
+.menu nav{
+        padding-left: 20px;
+}
+
+/*FIM DO CABEÇALHO*/
+
+
+/*INICIO CONTEUDO*/
+.corpo{
+        background-color: rgb(174, 174, 174);
+}
+.cardAV{
+        display: flex;
+        align-items: center;
+        padding-left: 80px;
+}
+.main_area{
+        margin-bottom: 20px;
+}
+.main h2{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        margin-top: 15px;
+        font-style: italic;
+
+}
+.destaques{
+        padding-top: 20px;
+}
+.btn{
+        padding: 50px;
+        padding-bottom: 40px;
+        margin-left: 80%;
+}
+.botão-api{
+        padding-top: 50px;
+        padding-right: 60px;
+}
+.area-lançamentos{
+        padding: 30px;
+}
+.lancTitle{
+        padding-bottom: 15px;
+}
+.area-destaques{
+        padding: 50px;
+}
+.avaliaçoes{
+        padding: 70px;
+        padding-top: 15px; 
+        margin: 5px;
+        align-items: center;
+}
+.botoes-avaliaçoes{
+        float: right;
+}
+.botoes-entrevistas{
+        padding: 10px;
+        margin-left: 77%;
+}
+.entrevista_area{
+        padding: 70px;
+}
+.area-novidades{
+        padding: 50px;
+        padding-bottom: 60px;
+}
+.novidades{
+        display: flex;
+        padding-bottom: 20px;
+}
+.cardN{
+        margin-left: 20px;
+
+}
+.infos{
+        display: flex;float: right; margin-top: -240px;
+}
+.redes{
+        padding-top: 65px;
+}
+.editorial{
+        display: block; padding-top: 70px;
+}
+.final{
+        padding: 70px; 
+}
+
+.main h3{
+        font-family: 'Times New Roman', Times, serif;font-size: 40px; margin-top: 15px;
+}
+
+/*FIM CONTEUDO*/
+
+
+/*INICIO MENU RESPONSIVO*/
+
+
+/*FIM MENU RESPONSIVO*/
+
+
+
+/*INICIO RODAPE*/
+.C1{
+        bottom: 0px;
+        width: 100%;
+        height: 60%;
+        background-color: rgb(0, 0, 0);
+}
+.footer_area{
+        width: 100%;
+        text-align: center;
+        font-size: 0.9em;
+        color: white;
+}
+.logotipo_footer{
+        width: 100px;
+        vertical-align: middle;
+}
+/*FIM RODAPE*/
+
+
+/* INICIO RESPONSIVIDADE*/
+
+@media screen and (min-width:240px) and (max-width:500px) {
+        .menu{
+                display: none;
+        }
+        .responsivemenu{
+                align-items: center;
+                float: left;
+                margin-right: -100px;
+        }
+        .titulozinho{
+                float: center;
+        }
+        .carrossel{
+                display: none;
+        }
+        .infos{
+                display: none;
+        }
+        .redes{
+                display: none;
+        }
+        .nomezinho{
+                display: none;
+        }
+        .cardAV{
+                display: flex;
+                padding-right: 50px;
+        }
+        .cardAV{
+                display: grid;
+                padding: -20px;
+        }
+        .card-img-top{
+                width: 100%;
+        }
+        .botão-api{
+                margin-left: -20%;
+                padding: 30px;
+        }
+        .area-novidades{
+                display: none;
+        }
+}
+
+@media screen and (min-width: 765px) and (max-width: 1002px){
+        .responsivemenu{
+                align-items: center;
+                float: left;
+                margin-right: -100px;
+        }
+        .titulozinho{
+                float: center;
+        }
+        .carrossel{
+                display: none;
+        }
+        .infos{
+                display: none;
+        }
+        .redes{
+                display: none;
+        }
+        .nomezinho{
+                display: none;
+        }
+        .cardAV{
+                display: grid;
+                padding: -20px;
+        }
+        .card-img-top{
+                width: 100%;
+        }
+        .botão-api{
+                margin-left: 50%;
+        }
+        .area-novidades{
+                display: none;
+        }
+        
+}
+
+@media screen and (min-width: 501px) and (max-width: 1000px){
+        .menu{
+                display: none;
+        }
+        .responsivemenu{
+                align-items: center;
+                float: left;
+                margin-right: -100px;
+        }
+        .titulozinho{
+                float: center;
+        }
+        .carrossel{
+                display: none;
+        }
+        .infos{
+                display: none;
+        }
+        .redes{
+                display: none;
+        }
+        .nomezinho{
+                display: none;
+        }
+        .cardAV{
+                display: grid;
+                padding: -20px;
+        }
+        .card-img-top{
+                width: 100%;
+        }
+        .botão-api{
+                margin-left: -40%;
+        }
+        .area-novidades{
+                display: none;
+        }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1600px){
+        .responsivemenu{
+                display: none;
+        }
+        .carrossel-responsivo{
+                display: none;
+        }
+        .novidade-responsive{
+                display: none;
+        }
+        .titulozinho{
+                display: none;
+        }
+}
+    
+    /* FIM RESPONSIVIDADE*/
+
+
+
+
